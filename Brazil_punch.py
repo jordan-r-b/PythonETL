@@ -1,41 +1,20 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[33]:
-
-
 import pandas as pd
 import numpy as np
-
-
-# In[34]:
-
 
 #Variables for data load. Change path to directory of data
 punch_data = []
 punch_files = []
 path = 'C:\\Users\\50063903\\Desktop\\Brazil_punch\\'
 
-
-# In[40]:
-
-
 #Read all txt files in directory
 import os
 text_files = [f for f in os.listdir(path) if f.endswith('.txt')]
-
-
-# In[41]:
-
 
 for file in text_files:
     f = open((path+file), "r")
     #append each line in the file to a list
     punch_data.append(f.readlines())
     f.close()
-
-
-# In[42]:
 
 
 #Hard Coded first draft# File from Brazil time clocks where employee number and date/time of punch is stored
