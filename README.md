@@ -8,12 +8,7 @@ Steps: Only steps are to designate where the raw TXT files will be placed and th
 
 Final Output: CSV file in below format.
 
-![alt text](https://github.com/[jordan-r-b]/[Python_RPA]/blob/[branch]/Screenshot 2021-01-03 124029.png?raw=true)
-
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
-
-![Screenshot](Screenshots/Screenshot 2021-01-03 124029.png?raw=true "Optional Title")
+![Final Output](Screenshots/Brazil_Screenshot.png?raw=true "Final Output")
 
 # India_ETL
 
