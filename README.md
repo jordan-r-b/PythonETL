@@ -30,7 +30,24 @@ Files: India_RPA (code)
 
 Business problem: Exported data from another system contains lines of redundant data that need to be removed so that analysis can be performed. Primary data analysis goal is to group in Pivot tables on investor or Rep. Additional analysis is then performed on data including machine learning to determine data trends.
 
-Script Steps: Pulls in data to Pandas table. Filters out redundant data by the 'Account' column. Pulls in data into a Pandas table of lookup table with Rep/Investor info. Merges these tables. Creates Pivot tables in Pandas. Then performs machine learning using SciKit Learn.
+Script Steps: Pulls in data to Pandas table. Filters out redundant data by the 'Account' column. Pulls in data into a Pandas table of lookup table with Rep/Investor info. Merges these tables. Creates Pivot tables in Pandas. Then performs machine learning using SciKit Learn. Finally, exports data to designated Excel file for ease of use/distribution within company.
+
+![Finance Code](Screenshots/Finance_code.png?raw=true "Finance Code")
 
 Files: Finance_RPA (code), Distro_detail (example data), Rep_lookup (example data)
 
+Output:
+
+Pivot Table
+
+![Finance Pivot](Screenshots/Finance_Pivot.png?raw=true "Finance Pivot")
+
+Data Analysis with Plotly
+
+![Finance Graph](Screenshots/Finance_rep.png?raw=true "Finance Graph")
+
+![Finance Analysis](Screenshots/Finance_Analysis.png?raw=true "Finance Analysis")
+
+Machine Learning with SciKit Learn
+
+![Finance Machine Learning](Screenshots/Finance_ML.png?raw=true "Finance Pivot")
